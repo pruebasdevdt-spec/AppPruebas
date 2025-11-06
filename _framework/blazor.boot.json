@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "AppWebAssembly",
   "resources": {
-    "hash": "sha256-HBBIXRAchhIBrXgId4nlNmAp0SYk8xjG3Nv1QzKLa2Q=",
+    "hash": "sha256-YEN2IWqE8h2ibJ1cRMyRhsVXFh4+C86eZLws3jv1FIg=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.0x4d6sduu7.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.ej7pbkdwg8.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -71,9 +71,9 @@
       "System.Xml.XDocument.ocxzop4g63.wasm": "System.Xml.XDocument.wasm",
       "System.8rv0tdtrxz.wasm": "System.wasm",
       "System.Private.CoreLib.ilvypkzayf.wasm": "System.Private.CoreLib.wasm",
-      "AppWebAssembly.iksnzl2sd8.wasm": "AppWebAssembly.wasm",
+      "AppWebAssembly.j79sib97fl.wasm": "AppWebAssembly.wasm",
       "dotnet.native.u3q39tvd1k.js": "dotnet.native.js",
-      "dotnet.native.39jc9t9llh.wasm": "dotnet.native.wasm",
+      "dotnet.native.fik3anr72v.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.runtime.drv0pr9n5o.js": "dotnet.runtime.js",
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
@@ -87,7 +87,7 @@
       "dotnet.runtime.drv0pr9n5o.js": "sha256-yfXUv1l/B489E8p12JxUvxly0JvHL9CCsoZUDlfGH9c="
     },
     "wasmNative": {
-      "dotnet.native.39jc9t9llh.wasm": "sha256-d/k/yCU3BXkYqfFGCnwObArkaErA7RfFsCMPGkRCcbg="
+      "dotnet.native.fik3anr72v.wasm": "sha256-af8/XYyB7w2q9lj2lsSyL631sCGPyIEAUdFLBs89C8g="
     },
     "icu": {
       "icudt_CJK.tjcz0u77k5.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -163,7 +163,7 @@
       "System.Xml.XDocument.ocxzop4g63.wasm": "sha256-mO8Myb/YHsEXA9rrh5dZinveqXGkEbaG2JNi9ZpvjnY=",
       "System.8rv0tdtrxz.wasm": "sha256-xMF0eauQ5DkSzUozHLFFMQnL6DSJO09nJLtgag+Dzbw=",
       "System.Private.CoreLib.ilvypkzayf.wasm": "sha256-dg1qXOrdJzpGxLtctiz4O7PCaDGcA8+F7nk4kIei0wo=",
-      "AppWebAssembly.iksnzl2sd8.wasm": "sha256-nngUevXzq7W+z3DneqfWK3IKZNaB7R0rjxZ7nvpQIGE="
+      "AppWebAssembly.j79sib97fl.wasm": "sha256-n8t0PuffQEV9D3tIdeEkCve4told/+g9Wz+qdTmlGFM="
     },
     "assembly": {}
   },
