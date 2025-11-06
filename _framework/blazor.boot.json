@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "AppWebAssembly",
   "resources": {
-    "hash": "sha256-OB+NTEhsCx+1BjNwZjw5/HbExzfPBJKALuby7ZEvbrg=",
+    "hash": "sha256-cb5bxp/DHTn0efBCEWc3yJ5zWuHQU1nrdGfoWDEgHuI=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.r3wm4vspxo.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.4cb2gesvaz.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -71,7 +71,7 @@
       "System.Xml.XDocument.ocxzop4g63.wasm": "System.Xml.XDocument.wasm",
       "System.8rv0tdtrxz.wasm": "System.wasm",
       "System.Private.CoreLib.qilxdl51zs.wasm": "System.Private.CoreLib.wasm",
-      "AppWebAssembly.77pfi0sq6c.wasm": "AppWebAssembly.wasm",
+      "AppWebAssembly.evcnrih1ch.wasm": "AppWebAssembly.wasm",
       "dotnet.native.zs8okpq3bw.js": "dotnet.native.js",
       "dotnet.native.jhs9npzvpu.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
@@ -165,7 +165,7 @@
       "System.Xml.ReaderWriter.1otkvd7d8u.wasm": "sha256-z6lJ2dLqjFO8i9yDuWV50JqG5CuDqO1ssAfKN80tAic=",
       "System.Xml.XDocument.ocxzop4g63.wasm": "sha256-mO8Myb/YHsEXA9rrh5dZinveqXGkEbaG2JNi9ZpvjnY=",
       "System.8rv0tdtrxz.wasm": "sha256-xMF0eauQ5DkSzUozHLFFMQnL6DSJO09nJLtgag+Dzbw=",
-      "AppWebAssembly.77pfi0sq6c.wasm": "sha256-rUAZrxXviJK/+504PN04RddfkQIHJgEILXMgTZDM4Po="
+      "AppWebAssembly.evcnrih1ch.wasm": "sha256-6nMivIVJJpEU6bHPJT1bwekxZr7aZzzgaP3tXGFhqow="
     }
   },
   "cacheBootResources": true,
