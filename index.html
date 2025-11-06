@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AppWebAssembly</title>
-    <base href="/AppPruebas/" />
+    <!-- Cambiar base href según tu repo en GitHub Pages -->
+    <base href="/" />
+
     <!-- Fuente recomendada por MudBlazor -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
 
     <!-- Estilos de MudBlazor -->
-    <!-- Important: Increment the version parameter whenever you update MudBlazor to prevent caching issues -->
     <link href="_content/MudBlazor/MudBlazor.min.css?v=1" rel="stylesheet" />
-    <!--<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />-->
     <link rel="stylesheet" href="css/app.css" />
-    <link rel="icon" type="image/png" href="favicon.png" />
     <link href="AppWebAssembly.styles.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="favicon.png" />
 </head>
-
 <body>
+    <!-- Loading Screen -->
     <div id="app">
-        <svg class="loading-progress">
-            <circle r="40%" cx="50%" cy="50%" />
-            <circle r="40%" cx="50%" cy="50%" />
-        </svg>
-        <div class="loading-progress-text"></div>
+        <div class="loading-container">
+            <svg class="loading-progress">
+                <circle r="40%" cx="50%" cy="50%" />
+                <circle r="40%" cx="50%" cy="50%" />
+            </svg>
+            <div class="loading-progress-text">Cargando...</div>
+        </div>
     </div>
 
+    <!-- Error UI de Blazor -->
     <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="." class="reload">Reload</a>
+        Ocurrió un error inesperado.
+        <a href="." class="reload">Recargar</a>
         <span class="dismiss">🗙</span>
     </div>
-    <!--<script src="_framework/blazor.webassembly.js"></script>-->
-    <!-- Scripts de Blazor -->
-    <script src="_framework/blazor.webassembly.js"></script>
 
-    <!-- Script de MudBlazor -->
-    <script src="_content/MudBlazor/MudBlazor.min.js?v=1"></script>
+    <!-- Scripts con defer para no bloquear la carga -->
+    <script src="_framework/blazor.webassembly.js" defer></script>
+    <script src="_content/MudBlazor/MudBlazor.min.js?v=1" defer></script>
 </body>
-
 </html>
